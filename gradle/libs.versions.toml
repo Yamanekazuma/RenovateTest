@@ -51,7 +51,7 @@ cardview = "1.0.0"
 paging = "3.0.1"
 tsnackbar = "V2.0.0"
 timber = "5.0.1"
-splash = "1.0.0-beta02"
+splash = "1.0.1"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-application" }
