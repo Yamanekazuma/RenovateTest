@@ -1,6 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "labels": ["environment", "renovate"],
+  "branchPrefix": "renovate/",
+  "separateMajorMinor": false,
+  "prCreation": "immediate",
+  "baseBranches": "main",
+  "reviewers": ["Yamanekazuma"],
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "registryUrls": [
+        "https://maven.google.com",
+        "https://repo1.maven.org/maven2/",
+        "https://plugins.gradle.org/m2/",
+        "https://pkgs.dev.azure.com/MicrosoftDeviceSDK/DuoSDK-Public/_packaging/Duo-SDK-Feed/maven/v1",
+        "https://jitpack.io"
+      ]
+    }
   ]
 }
