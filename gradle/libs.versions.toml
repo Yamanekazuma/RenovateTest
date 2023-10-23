@@ -4,7 +4,7 @@ android-application = "7.4.0"
 android-library = "7.4.0"
 gms-oss-licenses = "0.10.4"
 gms-google-services = "4.3.10"
-firebase-crashlytics = "2.8.1"
+firebase-crashlytics = "2.9.9"
 hilt = "2.44.2"
 detekt = "1.23.0"
 
