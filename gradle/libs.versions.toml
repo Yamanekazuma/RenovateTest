@@ -1,6 +1,6 @@
 [versions]
 kotlin = "1.8.20"
-android-application = "7.4.0"
+android-application = "8.3.1"
 android-library = "7.4.0"
 gms-oss-licenses = "0.10.4"
 gms-google-services = "4.3.10"
